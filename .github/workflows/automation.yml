@@ -2,11 +2,10 @@ name: teste
 
 
 on:
-
-    schedule:
-
-         - cron: '0,35 * * * *'
-
+  push:
+    branches:
+    - main
+    - release/*
 
 jobs:
 
