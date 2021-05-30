@@ -3,7 +3,7 @@ name: teste
 
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '0 */2 * * *'
 
 jobs:
 
